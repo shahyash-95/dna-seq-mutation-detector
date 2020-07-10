@@ -1,0 +1,4 @@
+channels:
+ - bioconda
+dependencies:
+ - somaticseq =3.4.1

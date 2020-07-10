@@ -1,0 +1,22 @@
+cores : 10
+SAMPLE_DETAILS :
+  '/data/home2/hematopath/hemoseq_v2/mutation_detector/TestControls2019/sample_details.csv'
+S3PATH :
+  's3://hematopath-data/Clinical_NGS_Analysis/TestControls2019/'
+reference_genome :
+  '/data/home2/hematopath/reference_genomes/hg19GATK/hg19_all.fasta'
+NA12878_BAM:
+  '/data/home2/hematopath/reference_genomes/NA12878/NA12878.final.bam'
+adaptors :
+  '/data/home2/hematopath/hemoseq_v2/mutation_detector/code/functions/preprocess_reads_miseq/smmip_adaptors.fa'
+known-variants:
+  site1: '/data/home2/hematopath/reference_genomes/dbSNPGATK/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf'
+  site2: '/data/home2/hematopath/reference_genomes/dbSNPGATK/dbsnp_138.hg19.vcf'
+  site3: '/data/home2/hematopath/reference_genomes/dbSNPGATK/1000G_phase1.snps.high_confidence.hg19.sites.vcf'
+bedfile:
+  '/data/home2/hematopath/hemoseq_v2/mutation_detector/bedfile/myeloid_coordiates_file.bed'
+EA_UTILS_PATH: '/data/home2/hematopath/programs/ea-utils/clipper'
+PEAR_PATH: '/data/home2/hematopath/programs/pear/bin/pear'
+GATK38_PATH: '/data/home2/hematopath/programs/GenomeAnalysisTK-3.8-0/GenomeAnalysisTK.jar'
+VARSCAN_PATH: '/data/home2/hematopath/programs/VarScan.v2.3.9.jar'
+QUALIMAP_PATH: '/data/home2/hematopath/programs/qualimap_v2.2.1'
